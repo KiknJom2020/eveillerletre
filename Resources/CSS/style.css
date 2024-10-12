@@ -41,9 +41,8 @@ main {
     background: #FFCFD2;
  }
  .btn.rdv {
-    background: #90DBF4;
+    background: #5423A1;
     color: white;
-    text-shadow: 0 0 .3rem #A3C4F3;
     font-weight: bold;
     border: #A3C4F3 ;
  }
@@ -95,21 +94,20 @@ div.presentation-img img {
     overflow: hidden;
     object-fit: contain;
 }
-.btn.rdv {
+.email.btn {
     background: #90DBF4;
     color: white;
     text-shadow: 0 0 .3rem #A3C4F3;
     font-weight: bold;
     border: #A3C4F3 ;
  }
- .btn.rdv:hover {
+ .email.btn:hover {
     background:white;
     color: #90DBF4;
  }
  .btn.btn-card {
-    background: #90DBF4;
+    background: #5423A1;
     color: white;
-    text-shadow: 0 0 .3rem #A3C4F3;
     font-weight: bold;
     border: #A3C4F3 ;
  }
@@ -121,21 +119,18 @@ div.presentation-img img {
     color: #5423A1;
     background-color: #E0D3F5;
  }
+ .tarif {
+    color: white;
+    text-shadow: .01rem .01rem .3rem #5423A1;
+ }
  .footer {
-    height: 3rem;
     background-color: #5423A1;
     border: solid 0.1rem  white;
     display: flex;
-    vertical-align: center;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding-top: 1rem;
-   }
-
+}
 .footer p, .footer a {
     font-weight: 500;
     color: azure;
     text-shadow: 0.05rem 0.05rem 0.1rem black;
     font-size: 1rem;
-   }
+}
