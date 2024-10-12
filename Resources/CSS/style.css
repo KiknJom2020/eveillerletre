@@ -95,3 +95,47 @@ div.presentation-img img {
     overflow: hidden;
     object-fit: contain;
 }
+.btn.rdv {
+    background: #90DBF4;
+    color: white;
+    text-shadow: 0 0 .3rem #A3C4F3;
+    font-weight: bold;
+    border: #A3C4F3 ;
+ }
+ .btn.rdv:hover {
+    background:white;
+    color: #90DBF4;
+ }
+ .btn.btn-card {
+    background: #90DBF4;
+    color: white;
+    text-shadow: 0 0 .3rem #A3C4F3;
+    font-weight: bold;
+    border: #A3C4F3 ;
+ }
+ .btn.btn-card:hover {
+    background:white;
+    color: #90DBF4;
+ }
+ div.bg-card-tarif {
+    color: #5423A1;
+    background-color: #E0D3F5;
+ }
+ .footer {
+    height: 3rem;
+    background-color: #5423A1;
+    border: solid 0.1rem  white;
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-top: 1rem;
+   }
+
+.footer p, .footer a {
+    font-weight: 500;
+    color: azure;
+    text-shadow: 0.05rem 0.05rem 0.1rem black;
+    font-size: 1rem;
+   }
