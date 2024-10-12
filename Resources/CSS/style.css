@@ -1,4 +1,4 @@
-/* colors 
+/* colors palette 
 .color1 {color: #6c7fa9;}
 .color2 {color: #a689a7;}
 .color3 {color: #d8b7cb;}
@@ -17,6 +17,7 @@ body {
     background: linear-gradient(45deg, rgba(185,251,192,1) 0%, rgba(253,228,207,1) 30%, rgba(207,186,240,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b9fbc0",endColorstr="#cfbaf0",GradientType=1);
 }
+/* nav bar */
 #navbar {
     background-color: #CFBAF0;
     color: #DBF0BA;
@@ -34,6 +35,7 @@ a.dropdown-item {
     text-shadow: .05rem .05rem 1rem #CFBAF0;
 }
 
+/* main */ 
 main {
     margin-top: 70px;
 }
@@ -115,6 +117,8 @@ div.presentation-img img {
     background:white;
     color: #90DBF4;
  }
+
+ /* tarifs */
  div.bg-card-tarif {
     color: #5423A1;
     background-color: #E0D3F5;
@@ -123,6 +127,8 @@ div.presentation-img img {
     color: white;
     text-shadow: .01rem .01rem .3rem #5423A1;
  }
+
+/* footer */
  .footer {
     background-color: #5423A1;
     border: solid 0.1rem  white;
