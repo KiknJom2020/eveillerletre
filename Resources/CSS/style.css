@@ -24,7 +24,16 @@ body {
 .navbar-nav > li{
     margin-left:8px;
     margin-right:8px;
-  }
+}
+a.text-white {
+    text-shadow: .01rem .01rem 1rem #5423A1;
+}
+a.dropdown-item {
+    background-color: #5423A1;
+    color: white;
+    text-shadow: .05rem .05rem 1rem #CFBAF0;
+}
+
 main {
     margin-top: 70px;
 }
