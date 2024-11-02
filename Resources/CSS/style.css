@@ -29,8 +29,8 @@ body {
 a.text-white {
     text-shadow: .01rem .01rem 1rem #5423A1;
 }
-a.dropdown-item {
-    background-color: #5423A1;
+a.dropdown-menu {
+    background-color: #844ED9;
     color: white;
     text-shadow: .05rem .05rem 1rem #CFBAF0;
 }
@@ -39,11 +39,15 @@ a.dropdown-item {
 main {
     margin-top: 50px;
 }
+#moi {
+    position: absolute;
+    top: 1rem;
+}
  .color-rose {
     background: #FFCFD2;
  }
  .btn.rdv {
-    background: #5423A1;
+    background: #844ED9;
     color: white;
     font-weight: bold;
     border: #A3C4F3 ;
@@ -52,21 +56,32 @@ main {
     background:white;
     color: #90DBF4;
  }
+ .h1-bg {
+    color: white;
+    background-color: #844ED9;
+ }
 div.color-text {
     color: #5423A1;
+    background-color: #eee6f9;
 }
 div.presentation-bg {
-    background-color: #DFF8E3;
     color: #5423A1;
+    background-color: #E0D3F5;
+}
+.color-info {
+    text-shadow: .03rem .03rem black;
 }
 a.email {
     text-decoration: none;
     background-color: #90DBF4;
     color: white;
 }
+.card-footer-index {
+    background: #5423A1;
+}
 .jumbotron {
-    background-color: #CDF4D4;
-    color: #5423A1;
+    color: white;
+    background-color: #844ED9;
 }
 
 .contact-page {
@@ -77,21 +92,32 @@ iframe {
     object-fit: contain;
 }
 .h2-bg {
-    background-color: #DFF8E3;
+    color: white;
+    background-color: #844ED9;
 }
 @media only screen and (max-width:767px) {
     .img-collapse {
         display: none;
     }
-    .jumbotron {
-        margin-top: 3rem;
-    }
+}
+.textindent {
+    text-indent: 1rem;
 }
 aside {
-    background-color: #E0D3F5;
+    color: #E0D3F5;
+    background-color: #5423A1;
     font-family: "Vibur", script;
 }
-
+.carousel-caption {
+    text-shadow: .05rem .05rem .5rem black;
+    background-color: rgb(84,35,161,0.6);
+    padding: 1rem;
+}
+.carousel-inner {
+    max-height: 60vh;
+    max-width: 60vh;
+    margin: auto;
+}
 div.presentation-img {
     display: flex;
     flex-direction: row;
@@ -101,6 +127,7 @@ div.presentation-img img {
     overflow: hidden;
     object-fit: contain;
 }
+/* changement de style bouton email? 
 .email.btn {
     background: #90DBF4;
     color: white;
@@ -111,10 +138,11 @@ div.presentation-img img {
  .email.btn:hover {
     background:white;
     color: #90DBF4;
- }
+ }*/
  .btn.btn-card {
-    background: #5423A1;
+    background: #844ED9;
     color: white;
+    text-shadow: .01rem .01rem .3rem black;
     font-weight: bold;
     border: #A3C4F3 ;
  }
@@ -122,7 +150,6 @@ div.presentation-img img {
     background:white;
     color: #90DBF4;
  }
-
  /* tarifs */
  div.bg-card-tarif {
     color: #5423A1;
@@ -132,10 +159,18 @@ div.presentation-img img {
     color: white;
     text-shadow: .01rem .01rem .3rem #5423A1;
  }
-
+/* où */
+.ou-bg {
+    color: #5423A1;
+    background-color: #eee6f9;
+}
+.h3-bg {
+    color: white;
+    background-color: #844ED9;
+}
 /* footer */
  .footer {
-    background-color: #5423A1;
+    background-color: #CFBAF0;
     border: solid 0.1rem  white;
     display: flex;
 }
