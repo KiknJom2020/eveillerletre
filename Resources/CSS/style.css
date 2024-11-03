@@ -95,11 +95,7 @@ iframe {
     color: white;
     background-color: #844ED9;
 }
-@media only screen and (max-width:767px) {
-    .img-collapse {
-        display: none;
-    }
-}
+
 .textindent {
     text-indent: 1rem;
 }
@@ -150,6 +146,29 @@ div.presentation-img img {
     background:white;
     color: #90DBF4;
  }
+ /* version mobile */
+@media only screen and (max-width:649px) {
+    .img-collapse {
+        display: none;
+    }
+    .fb-page {
+        display: none;
+    }
+}
+@media only screen and (min-width:650px) {
+    .fb-logo {
+        display: none;
+    }
+}
+
+.partenaires a {
+    color: #5423A1;
+    text-shadow: .05rem .05rem .7rem #90DBF4, .01rem .01rem .02rem #844ED9;
+}
+.partenaires a:hover {
+    color: #90DBF4;
+    text-shadow: .05rem .05rem .7rem #5423A1, .01rem .01rem .02rem white;
+}
  /* tarifs */
  div.bg-card-tarif {
     color: #5423A1;
