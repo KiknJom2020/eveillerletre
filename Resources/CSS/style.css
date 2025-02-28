@@ -151,7 +151,7 @@ div.presentation-img img {
     .img-collapse {
         display: none;
     }
-    .fb-page {
+    #fb-page {
         display: none;
     }
 }
