@@ -154,6 +154,9 @@ div.presentation-img img {
     #fb-page {
         display: none;
     }
+    div.fb-page {
+        display: none;
+    }
 }
 @media only screen and (min-width:650px) {
     .fb-logo {
